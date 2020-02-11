@@ -1,1 +1,69 @@
+.homepage {
+    padding: 0;
+    margin: 0;
+}
 
+#header {
+    position: relative;
+    background: url(../src/images/head.jpg) bottom center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 75%;
+}
+
+.nav-wrapper {
+    background: rgba(236, 226, 226, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 0em 0em;
+}
+
+nav {
+    padding: 0em 0em;
+}
+
+ul {
+    padding: 0em 0em;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid;
+    border-color: rgba(110, 34, 34, 0.1);
+}
+
+a {
+    display: inline-block;
+    padding: 1.5em 1.5em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    outline: 0;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 10em 0em;
+}
+
+span {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
